@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title-Test-Web</title>
+</head>
+<body>
+<h3>Request 提交</h3>
+<form action="/request" method="get"><button>GET 提交</button></form>
+<form action="/request" method="post"><button>POST 提交</button></form>
+<hr>
+<h3>Get 提交</h3>
+<form action="/get" method="get"><button>GET 提交</button></form>
+<hr>
+<h3>Post 提交</h3>
+<form action="/post" method="post"><button>POST 提交</button></form>
+<hr>
+<h3>Put 提交</h3>
+<form action="/put" method="post">
+    <input type="hidden" name="_method" value="put">
+    <button>POST 提交</button>
+</form>
+<hr>
+<h3>Delete 提交</h3>
+<form action="/delete" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <button>POST 提交</button>
+</form>
+</body>
+</html>

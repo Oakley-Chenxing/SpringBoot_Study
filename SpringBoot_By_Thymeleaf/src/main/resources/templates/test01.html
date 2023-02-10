@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>test01</title>
+</head>
+<body>
+<h1>Test01</h1>
+<hr>
+<h3>标准变量</h3>
+<p>MyName : <span th:text="${MyName}"></span></p>
+<hr>
+// 这里红了不用管，只要不影响运行就行，有时候idea加载确实会有问题
+<p>username : <span th:text="${user.username}"></span></p>
+<p>password : <span th:text="${user.password}"></span></p>
+<hr>
+<p>username : <span th:text="${user.getUsername()}"></span></p>
+<p>password : <span th:text="${user.getPassword()}"></span></p>
+<hr>
+<h3>Thymeleaf 选择变量 - 表达式</h3>
+<span th:object="${user}">
+        <p th:text="*{username}"></p>
+        <p th:text="*{password}"></p>
+        <p th:text="*{getUsername()}"></p>
+        <p th:text="*{getPassword()}"></p>
+    </span>
+<hr>
+<h3>Thymeleaf URL - 表达式</h3>
+<a th:href="@{https://www.baidu.com}"> 广域网绝对路径 </a>
+</body>
+</html>

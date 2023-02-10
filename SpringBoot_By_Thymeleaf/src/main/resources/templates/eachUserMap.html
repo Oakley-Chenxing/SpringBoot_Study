@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>eachUserMap</title>
+</head>
+<body>
+<h1>Thymeleaf</h1>
+<hr>
+<h3>遍历Map集合 - 方法一</h3>
+<table>
+    <tr>
+        <th>序号</th>
+        <th>用户名</th>
+        <th>密码</th>
+        <th>操作</th>
+    </tr>
+    <tr th:each="user:${userMap}">
+        <td th:text="${userStat.count}">序号</td>
+        <td th:text="${user.key}">用户名</td>
+        <td th:text="${user.value}">密码</td>
+        <td>
+            <a th:href="@{/edit}"> 编辑 </a> |
+            <a th:href="'/delete?count='+${userStat.count}"> 删除 </a>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+<h3>遍历Map集合 - 方法二</h3>
+<table>
+    <tr>
+        <th>序号</th>
+        <th>用户名</th>
+        <th>密码</th>
+        <th>操作</th>
+    </tr>
+    <tr th:each="user:${userMap}">
+        <td th:text="${userStat.count}">序号</td>
+        <td th:text="${user.getKey()}">用户名</td>
+        <td th:text="${user.getValue()}">密码</td>
+        <td>
+            <a th:href="@{/edit}"> 编辑 </a> |
+            <a th:href="'/delete?count='+${userStat.count}"> 删除 </a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

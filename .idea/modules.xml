@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBootTest00/SpringBootTest01/SpringBootTest01.iml" filepath="$PROJECT_DIR$/SpringBootTest00/SpringBootTest01/SpringBootTest01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_By_Thymeleaf/SpringBoot_By_Thymeleaf.iml" filepath="$PROJECT_DIR$/SpringBoot_By_Thymeleaf/SpringBoot_By_Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_StuManager/SpringBoot_StuManager.iml" filepath="$PROJECT_DIR$/SpringBoot_StuManager/SpringBoot_StuManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Test04_Profile/SpringBoot_Test04_Profile.iml" filepath="$PROJECT_DIR$/SpringBoot_Test04_Profile/SpringBoot_Test04_Profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Test06_JSP/SpringBoot_Test06_JSP.iml" filepath="$PROJECT_DIR$/SpringBoot_Test06_JSP/SpringBoot_Test06_JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Test11_MyBatis/SpringBoot_Test11_MyBatis.iml" filepath="$PROJECT_DIR$/SpringBoot_Test11_MyBatis/SpringBoot_Test11_MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Test12_MyBatisPlus/SpringBoot_Test12_MyBatisPlus.iml" filepath="$PROJECT_DIR$/SpringBoot_Test12_MyBatisPlus/SpringBoot_Test12_MyBatisPlus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Test13_Web/SpringBoot_Test13_Web.iml" filepath="$PROJECT_DIR$/SpringBoot_Test13_Web/SpringBoot_Test13_Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Test14_Redis/SpringBoot_Test14_Redis.iml" filepath="$PROJECT_DIR$/SpringBoot_Test14_Redis/SpringBoot_Test14_Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Test15_RedisOrMySQL/SpringBoot_Test15_RedisOrMySQL.iml" filepath="$PROJECT_DIR$/SpringBoot_Test15_RedisOrMySQL/SpringBoot_Test15_RedisOrMySQL.iml" />
+    </modules>
+  </component>
+</project>

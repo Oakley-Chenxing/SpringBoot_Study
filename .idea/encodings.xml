@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SpringBootTest00/SpringBootTest01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_By_Thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_StuManager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_Test04_Profile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_Test06_JSP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_Test11_MyBatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_Test12_MyBatisPlus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_Test13_Web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_Test14_Redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot_Test15_RedisOrMySQL/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot_Test04_Profile" />
+        <module name="SpringBootTest01" />
+        <module name="SpringBoot_Test06_JSP" />
+        <module name="SpringBoot_By_Thymeleaf" />
+        <module name="SpringBoot_Test13_Web" />
+        <module name="SpringBoot_Test11_MyBatis" />
+        <module name="SpringBoot_StuManager" />
+        <module name="SpringBoot_Test14_Redis" />
+        <module name="SpringBoot_Test12_MyBatisPlus" />
+        <module name="SpringBoot_Test15_RedisOrMySQL" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBllt25_Thymaleaf" target="1.8" />
+      <module name="SpringBoot04_Profile" target="17" />
+      <module name="SpringBoot_04_profile" target="17" />
+      <module name="SpringBoot_By_Thymeleaf" target="1.8" />
+      <module name="SpringBoot_StuManager" target="1.8" />
+      <module name="SpringBoot_Test04_Profile" target="1.8" />
+      <module name="SpringBoot_Test06_JSP" target="1.8" />
+      <module name="SpringBoot_Test07_MyBatis01" target="17" />
+      <module name="SpringBoot_Test09_MyBatis02" target="1.8" />
+      <module name="SpringBoot_Test10_MyBaties" target="1.8" />
+      <module name="SpringBoot_Test11_MyBaties" target="17" />
+      <module name="SpringBoot_Test11_MyBatis" target="1.8" />
+      <module name="SpringBoot_Test12_MyBatisPlus" target="1.8" />
+      <module name="SpringBoot_Test13_Web" target="1.8" />
+      <module name="SpringBoot_Test14_Redis" target="1.8" />
+      <module name="SpringBoot_Test15_RedisOrMySQL" target="1.8" />
+      <module name="SpringBoot_Test_Thymaleaf" target="1.8" />
+      <module name="SpringBoot_Thymeleaf" target="1.8" />
+      <module name="SpringBootTest01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBllt25_Thymaleaf" options="-parameters" />
+      <module name="SpringBoot04_Profile" options="-parameters" />
+      <module name="SpringBootTest01" options="-parameters" />
+      <module name="SpringBoot_04_profile" options="-parameters" />
+      <module name="SpringBoot_By_Thymeleaf" options="-parameters" />
+      <module name="SpringBoot_StuManager" options="-parameters" />
+      <module name="SpringBoot_Test04_Profile" options="-parameters" />
+      <module name="SpringBoot_Test06_JSP" options="-parameters" />
+      <module name="SpringBoot_Test07_MyBatis01" options="-parameters" />
+      <module name="SpringBoot_Test09_MyBatis02" options="-parameters" />
+      <module name="SpringBoot_Test10_MyBaties" options="-parameters" />
+      <module name="SpringBoot_Test11_MyBaties" options="-parameters" />
+      <module name="SpringBoot_Test11_MyBatis" options="-parameters" />
+      <module name="SpringBoot_Test12_MyBatisPlus" options="-parameters" />
+      <module name="SpringBoot_Test13_Web" options="-parameters" />
+      <module name="SpringBoot_Test14_Redis" options="-parameters" />
+      <module name="SpringBoot_Test15_RedisOrMySQL" options="-parameters" />
+      <module name="SpringBoot_Test_Thymaleaf" options="-parameters" />
+      <module name="SpringBoot_Thymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>

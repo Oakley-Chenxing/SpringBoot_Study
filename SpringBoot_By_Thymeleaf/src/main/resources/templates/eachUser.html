@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>eachUser</title>
+</head>
+<body>
+<h1>Thymeleaf</h1>
+<hr>
+<h3>遍历用户</h3>
+<table border="1px" width="600px">
+    <tr>
+        <th>序号</th>
+        <th>用户名</th>
+        <th>密码</th>
+        <th>操作</th>
+    </tr>
+    <tr th:each="user:${userList}">
+        <td th:text="${userStat.count}">序号</td>
+        <td th:text="${user.getUsername()}">用户名</td>
+        <td th:text="${user.getPassword()}">密码</td>
+        <td>
+            <a th:href="@{/edit}"> 编辑 </a> |
+            <a th:href="'/delete?count='+${userStat.count}"> 删除 </a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
